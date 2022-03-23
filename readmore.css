@@ -1,0 +1,81 @@
+/* gloval css */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 90%;
+    margin: auto;
+}
+/* header is here */
+#header{
+    padding: 15px;
+    width: 100%;
+    float: left;
+}
+.logo-part{
+    width:20%;
+    float:left;
+}
+.logo-part a img{
+    width: 55%;
+
+}
+.menu-part{
+    width: 60%;
+    float: left;
+}
+.menu-part nav{
+    margin: 18px 50px;
+    
+}
+.menu-part nav ul{
+
+}
+.menu-part nav ul li{
+    display: inline-block;
+    margin: 0px 24px;
+}
+.menu-part nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight:700;
+    font-size: 21px;
+}
+.search-part{
+    width: 20%;
+    float: left;
+}
+.search-part  input{
+    padding: 9px;
+    margin: 12px;
+    border-radius: 20px;
+    border: 2px solid black;
+    font-size: 17px;
+    width: 85%;
+}
+.search-part input::placeholder{
+    text-align: right;
+    font-size: 17px;
+}
+.search-part i{
+    font-size: 25px;
+    display: inline-block;
+}
+/* writing is here */
+#writing{
+    width: 100%;
+    float: left;
+}
+.writing-part{
+    width: 100%;
+    float: left;
+}
+.writing-part h1{
+    color:red;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+.writing-part p{
+    font-size: 20px;
+}

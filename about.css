@@ -1,0 +1,209 @@
+/* Univarsal CSS */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Global CSS */
+.container{
+    width: 90%;
+    margin: 0 auto;
+}
+h3{
+    background-color: rgb(144, 141, 146);
+}
+/* header is here */
+#header{
+    padding: 15px;
+    width: 100%;
+    float: left;
+}
+.logo-part{
+    width:20%;
+    float:left;
+}
+.logo-part a img{
+    width: 55%;
+
+}
+.menu-part{
+    width: 60%;
+    float: left;
+}
+.menu-part nav{
+    margin: 18px 50px;
+    
+}
+.menu-part nav ul{
+
+}
+.menu-part nav ul li{
+    display: inline-block;
+    margin: 0px 24px;
+}
+.menu-part nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight:700;
+    font-size: 21px;
+}
+.search-part{
+    width: 20%;
+    float: left;
+}
+.search-part  input{
+    padding: 9px;
+    margin: 12px;
+    border-radius: 20px;
+    border: 2px solid black;
+    font-size: 17px;
+    width: 85%;
+}
+.search-part input::placeholder{
+    text-align: right;
+    font-size: 17px;
+
+}
+.search-part i{
+    font-size: 25px;
+    display: inline-block;
+}
+/* cv is here */
+#cv{
+    width: 100%;
+    float: left;
+    background-color: rgb(197, 248, 55);
+    /* margin: 0 auto; */
+}
+.cv-part{
+    width: 100%;
+    float: left;
+    
+}
+/* intro is here */
+#intro{
+    width:100%;
+    float: left;
+    margin: 20px 0;
+}
+.intro-part{
+    width:90%;
+    float: left;
+}
+.intro-part h1{
+    text-align: center;
+}
+.intro-part h2{
+
+}
+.intro-part p{
+
+}
+.intro-part p a{
+    text-decoration: none;
+}
+.img-part{
+    width: 10%;
+    float: left;
+    text-align: right;
+}
+.img-part img{
+    width:90%;
+    
+}
+/* co is here */
+#co{
+    width: 100%;
+    float:left;
+}
+.co-part h3{
+    
+
+}
+.co-part p{
+    max-width: 50%;
+    text-align: justify;
+    font-size: 20px;
+}
+/* Exp is here */
+#Exp{
+    width: 100%;
+    float:left;
+}
+.exp-part{
+    width: 100%;
+    float:left;
+    
+}
+.exp-part ol{
+    padding: 10px 20px;
+}
+.exp-part ol li span{
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+.exp-part ul li{
+    font-size: 17px;
+    list-style: none;
+}
+/* Iq is here */
+#Iq{
+    width: 100%;
+    float: left;
+}
+.iq-part h3{
+    font-size:20px ;
+}
+.iq-part p{
+    font-size: 20px;
+}
+/* ECA is here */
+#EA{
+    width: 100%;
+    float: left;
+}
+.eca-part{
+
+}
+.eca-part h3{
+    
+}
+.eca-part p{
+    font-size: 20px;
+}
+/* EQ is here */
+#eq{
+    
+}
+.eq-part{
+    width: 100%;
+    float: left;
+}
+.eq-part h3{
+    
+}
+.eq-part p{
+    font-size: 20px;
+}
+
+/* Table is here */
+#table{
+    width:100%;
+    float: left;
+}
+.table-part{
+
+}
+.table-part h3{
+    
+}
+table{
+    border: 3px solid rgb(95, 11, 230);
+    border-collapse: collapse;
+}
+table td,th{
+    border: 1px solid black;
+    text-align: center;
+    padding: 10px;
+}

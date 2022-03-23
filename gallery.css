@@ -1,0 +1,176 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 90%;
+    margin: auto;
+}
+
+/* header is here */
+#header{
+    padding: 15px;
+    width: 100%;
+    float: left;
+}
+.logo-part{
+    width:20%;
+    float:left;
+}
+.logo-part a img{
+    width: 55%;
+
+}
+.menu-part{
+    width: 60%;
+    float: left;
+}
+.menu-part nav{
+    margin: 18px 50px;
+    
+}
+.menu-part nav ul{
+
+}
+.menu-part nav ul li{
+    display: inline-block;
+    margin: 0px 24px;
+}
+.menu-part nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight:700;
+    font-size: 21px;
+}
+.search-part{
+    width: 20%;
+    float: left;
+}
+.search-part  input{
+    padding: 9px;
+    margin: 12px;
+    border-radius: 20px;
+    border: 2px solid black;
+    font-size: 17px;
+    width: 85%;
+}
+.search-part input::placeholder{
+    text-align: right;
+    font-size: 17px;
+}
+.search-part i{
+    font-size: 25px;
+    display: inline-block;
+}
+/* main is here */
+#gallery{
+    width: 100%;
+    float: left;
+    /* background-color: #101928; */
+}
+/* gallery-intro is here */
+.gallery-intro{
+    width: 100%;
+    float: left;
+}
+.gallery-intro h1{
+    text-align: center;
+    padding: 20px 0;
+    font-size: 35px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.gallery-intro p{
+    text-align: center;
+    padding: 25px 0;
+    font-size: 20px;
+}
+
+/* gallery-nav is here */
+.gallery-nav nav{
+    width: 100%;
+    float: left;
+    text-align: center;
+}
+.gallery-nav nav ul{
+
+}
+.gallery-nav nav ul li{
+    display: inline-block;
+    font-size: 26px;
+    padding: 0 15px;
+    font-weight:700;
+}
+.gallery-nav nav ul li a{
+    text-decoration: none;
+    color: black;
+    
+}
+
+/* gallery image-part is here */
+.image-part{
+    width: 100%;
+    float: left;
+}
+.row{
+    width: 100%;
+    float: left;
+}
+.gallary{
+    width: 100%;
+    float: left;
+}
+.photo{
+    width: 25%;
+    float: left;
+    padding: 15px;
+}
+.photo a{
+    
+}
+.photo a img{
+    width: 100%;
+}
+.photo a img:hover{
+    width: 125%;
+    align-items: center ;
+}
+.image-part table{
+    width: 100%;
+    
+}
+.image-part table tr{
+    
+}
+.image-part table td{
+
+}
+.image-part table tr td{
+    
+}
+.image-part table tr td a{
+
+}
+.image-part table tr td a img{
+    /* width: 242px; */
+    width: 20%;
+    float:left;
+    padding: 30px 10px;
+}
+
+button{
+    padding: 20px;
+    border-radius: 20px;
+    color: blue;
+    background-color: chartreuse;
+    box-shadow: aqua;
+    cursor: pointer;
+    font-size: 17px;
+    transition-delay: 500ms;
+}
+button:hover{
+    color: white;
+    background-color: grey;
+    box-shadow: black;
+}
